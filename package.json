@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "React Js",
+  "main": "index.js",
+  "scripts": {
+    "build5": "./node_modules/.bin/babel 5-hello-world-jsx/script.jsx -o 5-hello-world-jsx/script.js -w",
+    "build6": "./node_modules/.bin/babel 6-hello-world-jsx-component/script.jsx -o 6-hello-world-jsx-component/script.js -w",
+    "build7": "./node_modules/.bin/babel 7-dynamic-data-react-jsx/script.jsx -o 7-dynamic-data-react-jsx/script.js -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitashav-aggarwal/React_Projects.git"
+  },
+  "author": "Rohitashav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohitashav-aggarwal/React_Projects/issues"
+  },
+  "homepage": "https://github.com/rohitashav-aggarwal/React_Projects#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-react": "^6.5.0"
+  },
+  "babel": {
+    "presets": ["react"]
+    }
+}
