@@ -7,6 +7,7 @@
     "build5": "./node_modules/.bin/babel 5-hello-world-jsx/script.jsx -o 5-hello-world-jsx/script.js -w",
     "build6": "./node_modules/.bin/babel 6-hello-world-jsx-component/script.jsx -o 6-hello-world-jsx-component/script.js -w",
     "build7": "./node_modules/.bin/babel 7-dynamic-data-react-jsx/script.jsx -o 7-dynamic-data-react-jsx/script.js -w",
+    "build8": "./node_modules/.bin/babel 8-react-state -d 8-react-state -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
