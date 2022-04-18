@@ -10,6 +10,7 @@
     "build8": "./node_modules/.bin/babel 8-react-state -d 8-react-state -w",
     "build9": "./node_modules/.bin/babel 9-react-stateful-stateless-component/script.jsx -o 9-react-stateful-stateless-component/script.js -w",
     "build10": "./node_modules/.bin/babel 10-react-components-data-exchange/script.jsx -o  10-react-components-data-exchange/script.js",
+    "build11": "./node_modules/.bin/babel 11-react-input-field/script.jsx -o 11-react-input-field/script.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
