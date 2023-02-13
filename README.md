@@ -11,8 +11,6 @@ babel-preset-react v6.5.0 <br>
 
 I am creating this repo to develop react notes that I can reuse whenever needed. <br>
 
-If anyone wishes to go through my notes, please follow the package prefix numbers in an increasing order. <br>
-
-Any questions, feel free to contact me. <br>
+If anyone wishes to go through my notes, please follow the package prefix numbers in the increasing order. <br>
 
 Reference book: React Quickly by Azat Mardan <br>
