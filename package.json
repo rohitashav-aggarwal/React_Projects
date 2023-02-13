@@ -14,6 +14,7 @@
     "build12": "./node_modules/.bin/babel 12-react-default-properties/script.jsx -o 12-react-default-properties/script.js -w",
     "build13": "./node_modules/.bin/babel 13-react-prop-types/script.jsx -o 13-react-prop-types/script.js -w",
     "build14": "./node_modules/.bin/babel 14-react-children/script.jsx -o 14-react-children/script.js -w",
+    "build15": "./node_modules/.bin/babel 15-react-higher-order-component/script.jsx -o 15-react-higher-order-component/script.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
