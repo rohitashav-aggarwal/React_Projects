@@ -17,6 +17,7 @@
     "build15": "./node_modules/.bin/babel 15-react-higher-order-component/script.jsx -o 15-react-higher-order-component/script.js -w",
     "build16": "./node_modules/.bin/babel 16-react-menu/script.jsx -o 16-react-menu/script.js -w",
     "build17": "./node_modules/.bin/babel 17-react-tooltip/script.jsx -o 17-react-tooltip/script.js -w",
+    "build18": "./node_modules/.bin/babel 18-react-timer/script.jsx -o 18-react-timer/script.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
