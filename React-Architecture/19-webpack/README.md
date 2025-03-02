@@ -11,3 +11,4 @@ react (Before we were running npm run buildXX to transpile jsx to js).
 
 Webpack config file: webpack.config.js
 
+Dev Server: Using Node static-server or your favorite web server to check your web-app.
