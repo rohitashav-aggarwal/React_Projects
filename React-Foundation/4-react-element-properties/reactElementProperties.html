@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../React-Libraries/react.js"></script>
+        <script src="../React-Libraries/react-dom.js"></script>
+    </head>
+    <body>
+        <div id="content"></div>
+        <script>
+            // react component class
+            class HelloWorld extends React.Component {
+                render () {
+                    // access the name property from props
+                    return React.createElement('h1', null, 'Hello ' + this.props.customName + ' !!!')
+                }
+            }
+            // properties are immutable within their components
+            ReactDOM.render(
+                // Using component class as the first argument in the createElement method instead of string
+                React.createElement('div',
+                    null,
+                    React.createElement(HelloWorld, {
+                        // we can add html standard attributes as well along with custom
+                        customName: 'World'
+                    }),
+                    React.createElement(HelloWorld, {
+                        customName: 'Mars'
+                    }),
+                    React.createElement(HelloWorld, {
+                        customName: 'Sun'
+                    }),
+                ),
+                document.getElementById('content')
+            )
+        </script>
+    </body>
+</html>

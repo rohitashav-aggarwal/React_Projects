@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="../React-Libraries/react.js"></script>
+        <script src="../React-Libraries/react-dom.js"></script>
+    </head>
+    <body>
+        <div id="content"></div>
+        <script>
+            var header = React.createElement('h1', null, 'Hello World!!!')
+            // react component class
+            class HelloWorld extends React.Component {
+                render () {
+                    // to check if the object is immutable or not
+                    console.log(Object.isFrozen(this.props))
+                    return React.createElement('div', null, header, header)
+                }
+            }
+
+            ReactDOM.render(
+                // Using component class as the first argument in the createElement method instead of string
+                React.createElement(HelloWorld, null),
+                document.getElementById('content')
+            )
+        </script>
+    </body>
+</html>
